@@ -369,8 +369,8 @@ MonoBehaviour:
   EffectColor: {r: 1, g: 0.97702324, b: 0, a: 1}
   LocalAxis: 2
   InvertAxis: 1
-  Speed: 0.1
-  BlendAmount: 1
+  Speed: 1
+  BlendAmount: 0.23
 --- !u!21 &137448150
 Material:
   serializedVersion: 6
@@ -480,11 +480,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EffectTexture: {fileID: 8900000, guid: 67dbabe8dfef39b4ca6f3b997e22d315, type: 3}
   GradientTexture: {fileID: 2800000, guid: d8bbb78caccc515429943a8bf307f6fb, type: 3}
-  EffectColor: {r: 1, g: 0, b: 1, a: 1}
+  EffectColor: {r: 1, g: 0.08050716, b: 0, a: 1}
   LocalAxis: 0
   InvertAxis: 1
   Speed: 1
-  BlendAmount: 0.5
+  BlendAmount: 1
 --- !u!65 &198625573
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1402,7 +1402,7 @@ MonoBehaviour:
   LocalAxis: 0
   InvertAxis: 0
   Speed: 1
-  BlendAmount: 1
+  BlendAmount: 0.5
 --- !u!65 &751069586
 BoxCollider:
   m_ObjectHideFlags: 0
